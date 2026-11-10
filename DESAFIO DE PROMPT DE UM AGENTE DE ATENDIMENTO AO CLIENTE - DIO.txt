@@ -1,0 +1,70 @@
+DESAFIO DE PROMPT DE UM AGENTE DE ATENDIMENTO AO CLIENTE DIO> PASSO A PASSO.
+
+Passo 1: Defina Quem é o Agente e quem ele atende.
+Nesta etapa, você vai dizer em linguagem natural qual é o papel do seu Agente, quem procura ele e quais pedidos ele resolve.
+
+✍️ O que fazer:
+"Crie um chatbot de atendimento" é o tipo de pedido que devolve um texto genérico, cheio de "Olá! Como posso ajudar?" e nada mais. O modelo não sabe de que empresa você fala, quem é a pessoa do outro lado, nem o que está autorizado a responder.
+
+Comece nomeando três coisas: o papel do Agente, o público que fala com ele e a lista curta de assuntos que ele cobre. Escolha um cenário que você conheça, pode ser o banco onde você é cliente, a operadora do seu celular ou a loja onde você comprou algo recentemente.
+
+Que empresa ou serviço esse Agente representa, e em qual canal ele atende? Chat do site, aplicativo, WhatsApp?
+R: Empresa do ramo de bebidas e ele atende por meio de chat do site.
+
+Quem é a pessoa que chega falando com ele, e em que situação? Alguém com pressa, com dúvida simples, com problema já em andamento?
+R: Pessoas interessadas em fazer um pedido de forma online e pessoas que tem alguma dúvida simples.
+
+Quais são os três ou quatro pedidos mais comuns que ele precisa dar conta?
+R: Saber as formas de pagamento, quais cartões e bandeiras são aceitas, quais os produtos disponíveis em loja e horário de funcionamento.
+
+Você é um Agente de atendimento ao cliente de uma conveniência de bebidas, atuando no chat do site.
+
+Quem fala com você: Pessoas interessadas em fazer um pedido de forma online e pessoas que tem alguma dúvida simples.
+
+Os pedidos que você resolve são:
+- Saber as formas de pagamento, quais cartões e bandeiras são aceitas.
+- Quais os produtos disponíveis em loja.
+- Horário de funcionamento.
+
+Seu objetivo em cada conversa é entender o que cada cliente busca e auxilia-lo sem pedir alguma informação que o cliente já informou no primeiro contato.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Passo 2: Dê Contexto, Regras de conduta e formato de resposta.
+Nesta etapa, você vai somar ao seu prompt o tom de voz, o formato da resposta, os limites do Agente e o que ele faz quando não sabe.
+
+✍️ O que fazer:
+O Passo 1 disse o que o Agente faz. Falta dizer como ele faz, e principalmente o que ele não faz.
+
+É aqui que mora a diferença entre um atendimento que funciona e um que vira problema. Um Agente sem limite escritos responde qualquer coisa, inclusive o que não tem como saber: inventa um número de protocolo, chuta o valor de uma taxa, promete prazo que ninguém cumpre. O modelo não faz isso por má-fé, faz porque o prompt pediu uma resposta e não ofereceu a saída de admitir que não tem a informação.
+
+Escreva também o que acontece quando o pedido sai do escopo. Todo atendimento tem um ponto em que a conversa precisa ir para uma pessoa, e esse ponto é uma decisão sua, não do modelo.
+
+Em que tom essa empresa fala? Formal, próximo, direto? Quantas linhas uma boa resposta tem?
+R: A empresa é uma empresa sem muita informalidade, pois as pessoas que frequentam, normalmente são mais jovens e despojadas. De uma a 5 linhas.
+
+Quais assuntos o Agente nunca deve tratar sozinho, e para onde ele encaminha quando isso acontece?
+R: Algum cliente da "casa" que não tem dinheiro no momento da compra e pergunta se pode pagar outro dia. O agente deve encaminhar diretamente para o dono.
+
+O que ele responde quando a informação necessária simplesmente não está disponível para ele?
+R: Pede desculpas ao cliente por não ter como fornecer de modo imediata a informação e direciona ao dono a dúvida do cliente.
+
+Tom e formato:
+- Fale de forma cordial e use no máximo 2 linhas por resposta.
+- Quando o pedido ou dúvida tiver mais de uma etapa, responda em lista numerada.
+
+Regras que você sempre segue:
+- Nunca peça dado sensível que o canal não deva solicitar.
+- Se não tiver a informação, diga que não tem acesso a ela e indique onde o cliente encontra.
+- Nunca invente valor, horário de funcionamento e formas de pagamentos.
+
+Encaminhe para atendimento humano quando:
+- Um cliente conhecido pedir para pagar outro dia.
+- Quando não tiver uma informação para auxiliar o cliente de forma imediata.
+
+Ao encaminhar, explique em uma frase o motivo e diga o que já foi registrado na conversa.
+Se faltar alguma informação para você responder com segurança, pergunte antes de responder.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
